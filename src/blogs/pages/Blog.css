@@ -1,0 +1,101 @@
+.Blog-content-wrap {
+  background-color: white;
+  padding: 5%;
+  padding-top: 4.6rem;
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 100vh;
+}
+
+.Blog-content {
+  border-radius: 1rem;
+  background: #3aafa9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 5%;
+}
+
+.Blog-read {
+  max-width: 700px;
+  margin: auto;
+}
+
+.Up-Del-holder {
+  margin: 10px auto;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 2%;
+}
+.upButton {
+  width: 45%;
+  background-color: transparent;
+  border-radius: 0.75rem;
+  max-width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+  color: black;
+  transition: 0.8s ease-in-out;
+}
+.upButton:hover {
+  font-size: 1.1rem;
+  background-color: #3aafa9;
+  color: black;
+}
+.delButton {
+  width: 45%;
+  background-color: transparent;
+  border-radius: 0.75rem;
+  max-width: 400px;
+  height: 50px;
+  border: 1px solid rgb(255, 0, 0);
+  line-height: 1.75rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
+  color: rgb(255, 0, 0);
+  transition: 0.8s ease-in-out;
+}
+.delButton:hover {
+  font-size: 1.1rem;
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+button svg {
+  margin: auto 10px;
+}
+
+.deleteCard {
+  padding: 20px;
+  border-radius: 1rem;
+  width: fit-content;
+  height: fit-content;
+  margin: auto 5%;
+  background-color: white;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.deleteCard h3 {
+  margin: 0 20px;
+  font-weight: 700;
+}
+.deleteLayer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  backdrop-filter: blur(15px) saturate(100%) contrast(90%) brightness(110%);
+  /* backdrop-filter: blur(30px) saturate(160%) contrast(45%) brightness(140%); */
+  z-index: 4;
+  top: 0;
+  left: 0;
+}

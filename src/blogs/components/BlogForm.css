@@ -1,0 +1,15 @@
+textarea{
+    outline: none;
+    padding: .5rem;
+    padding-left: 1rem;
+    line-height: normal;
+    border-radius: 0.75rem;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-top: 5px;
+}
+textarea:focus{
+
+    box-shadow: 0 0 0 1px black;
+}

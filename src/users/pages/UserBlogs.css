@@ -1,0 +1,39 @@
+.UserBlogs-content-wrap{
+  background-color: white;
+  padding: 5%;
+  padding-top: 4.6rem;
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2),inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 100vh;
+}
+
+.UserBlogs-content{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.UserForm-wrap{
+  padding: 20px;
+  display: flex;
+  background-color: #3AAFA9;
+  border-radius: 1rem;
+}
+
+.UserBlogs-Blogs{
+
+  list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
